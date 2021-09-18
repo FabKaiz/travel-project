@@ -1,0 +1,30 @@
+/*==================== GOOGLE FONTS ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+/*==================== IMPORT COMPONENTS CSS ====================*/
+@import "css/nav.css";
+@import "css/sidebar.css";
+
+
+body {
+  background-image: linear-gradient(to right top, #ffffff, #fdfeff, #f9feff, #f4ffff, #f1fffd);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+}
+
+#main {
+  height: calc(100% - 96px);
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  grid-template-columns: 1fr 2fr;
+}
